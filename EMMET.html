@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        etiket isimlerini direkt verebiliyoruz
+        + kardeş öge
+        > içinde öge
+        ^ yukarı çık ve öge oluştur
+        * çarp -> p*3
+        lorem -> anlamsız kelimeler dizisi oluşturan yapı
+        lorem4 -> 4 kelimelik lorem oluştur
+        . -> class
+        # -> id
+    -->
+    <!--h1+h2-->
+    <h1></h1>
+    <h2></h2>
+    <!--ul>li-->
+    <ul>
+        <li></li>
+    </ul>
+    <!--ul>li*3^p+h3-->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <p></p>
+    <h3></h3>
+    <!-- ul>li*3>lorem1^p*2>lorem4+h3>lorem1 (yanlış çünkü ul içerisinde paragraf oluştu ve paragraf içerisinde h3 başlığı oluştu) -->
+    <ul>
+        <li>Lorem.</li>
+        <li>Commodi!</li>
+        <li>Laudantium?</li>
+        <p>
+            Lorem ipsum dolor sit.
+            <h3>Lorem.</h3>
+        </p>
+        <p>
+            Quasi, impedit? Qui, enim?
+            <h3>Harum.</h3>
+        </p>
+    </ul>
+    <!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 (doğru) -->
+    <ul>
+        <li>Lorem.</li>
+        <li>Sunt!</li>
+        <li>Voluptates.</li>
+    </ul>
+    <p>Lorem ipsum dolor sit.</p>
+    <p>Animi enim aspernatur dolor.</p>
+    <h3>Lorem.</h3>
+
+    <h3 class="deneme">Lorem.</h3> <!--h3.deneme>lorem1-->
+    <h3 id="idolussun">Lorem.</h3> <!--h3#idolussun>lorem1-->
+    <h3 class="deneme" id="idolussun">Lorem.</h3> <!--h3.deneme#idolussun>lorem1-->
+</body>
+</html>
