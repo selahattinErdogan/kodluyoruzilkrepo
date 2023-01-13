@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(11, 139, 189);
+    text-align: center;
+}
+
+.nav{
+    color: yellow;
+}
+.font-sz30{
+    font-size: 30px;
+}
+.font-sz20{
+    font-size: 20px;
+}
+.font-sz40{
+    font-size: 40px;
+}
+pre,p{
+    color:rgb(52, 52, 52);
+    font-family: monospace;
+}
