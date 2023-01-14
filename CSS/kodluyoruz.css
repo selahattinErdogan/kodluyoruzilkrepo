@@ -19,3 +19,11 @@ pre,p{
     color:rgb(52, 52, 52);
     font-family: monospace;
 }
+.color-brown .fontw-normal{
+    background-color: brown;
+    font-weight: normal;
+}
+.backcolor .font-sz{
+    background-color:black;
+    font-size: 20px;
+}
